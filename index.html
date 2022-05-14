@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attila Varjas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round:wght@100;300;400;500;600;700&display=swap');
+        * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+        body { width: 210mm; height: 297mm; margin: 0; padding: 0;  display: flex; flex-direction: row; font-family: 'Varela Round', sans-serif; color: #2a2a2a;}
+        .left { width: 34%; background: #ebebeb; height: calc(100%-2cm); display: flex; flex-direction: column; padding: 1cm; }
+        .right { width: 66%;  height: calc(100%-3cm); background: #ffffff; display: flex; flex-direction: column; padding: 2cm 1cm 1cm 1cm; }
+        .header { display: flex; flex-direction: column; align-items: center; margin-bottom: 40px;}
+        .imageContainer { width: 186px; height: 186px; background: #ffffff; border-radius: 93px;}
+        img { margin: 3px; width: 180px; height: 180px; }
+        .headerName { font-size: 18px; font-weight: 600; margin-top: 20px; margin-bottom: 5px; text-transform: uppercase; }
+        .headerSubtitle { font-weight: 400;}
+        .section { margin-bottom: 30px; }
+        .sectionTitle { font-size: 14px; font-weight: 600; margin-bottom: 25px; text-transform: uppercase; }
+        .contactEntry { margin-bottom: 5px;}
+        .key {font-size: 13px; font-weight: 600; margin-bottom: 3px;}
+        .value {font-size: 13px; font-weight: 400; margin-bottom: 5px;}
+        .value a {color: #2a2a2a; text-decoration: none;}
+        .skillEntry { margin-bottom: 5px; }
+        .skillOuter { background: #bfbfbf; height: 5px; width: 100%; border-radius: 2px; margin-top: 10px; }
+        /* .skillInner { background: linear-gradient(13deg, rgba(2,0,36,1) 0%, rgba(18,18,158,1) 66%, rgba(14,170,201,1) 100%); height: 5px; border-radius: 2px; margin-top: 10px; } */
+        .skillInner { background: linear-gradient(204deg, rgba(2,0,36,1) 0%, rgba(86,86,92,1) 66%, rgba(111,118,120,1) 100%); height: 5px; border-radius: 2px; margin-top: 10px; }
+        .rigthEntry { display: flex; flex-direction: row; width: 100%; margin-bottom: 20px;}
+        .place { width: 34%; text-align: right; font-size: 11px; font-weight: 600; }
+        .rightEntryLeft { margin-left: 20px; width: 66%; }
+        .rightEntryHeader { display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px; }
+        .title { font-size: 12px; font-weight: 600; }
+        .date { font-size: 12px; overflow: hidden; white-space: nowrap;}
+        .description { font-size: 12px; }
+        li { font-size: 11px; font-weight: 400; }
+    </style>
+</head>
+    <body>
+        <div class="left">
+            <div class="header">
+                <div class="imageContainer">
+                    <!-- <img src="https://i.postimg.cc/SQ2mfVQD/ati.png" alt="Varjas Attila"> -->
+                    <img src="./ati.png" alt="Varjas Attila">
+                </div>
+                <div class="headerName">Attila Varjas</div>
+                <div class="headerSubtitle">full stack developer</div>
+            </div>
+            <div class="section">
+                <div class="sectionTitle">contact me</div>
+                <div class="contactEntry"><div class="key">Email</div><div class="value"><a href="mailto:attila.varjas@gmail.com">attila.varjas@gmail.com</a></div></div>
+                <div class="contactEntry"><div class="key">Phone</div><div class="value">+36702027923</div></div>
+                <div class="contactEntry"><div class="key">Address</div><div class="value">2120 Dunakeszi Hatar street 29, Hungary</div></div>
+                <div class="contactEntry"><div class="key">Github</div><div class="value"><a target=”_blank” rel="noopener noreferrer" href="https://github.com/kukori">https://github.com/kukori</a></div></div>
+                <div class="contactEntry"><div class="key">LinkedIn</div><div class="value"><a target=”_blank” rel="noopener noreferrer" href="https://linkedin.com/in/attilavarjas">https://linkedin.com/in/attilavarjas</a></div></div>
+            </div>
+            <div class="section">
+                <div class="sectionTitle">skills</div>
+                <div class="skillEntry"><div class="key">React</div><div class="skillOuter"><div class="skillInner" style="width: 100%"></div></div></div>
+                <div class="skillEntry"><div class="key">Redux</div><div class="skillOuter"><div class="skillInner" style="width: 100%"></div></div></div>
+                <div class="skillEntry"><div class="key">Html, Css, sass</div><div class="skillOuter"><div class="skillInner" style="width: 100%"></div></div></div>
+                <div class="skillEntry"><div class="key">Node.js</div><div class="skillOuter"><div class="skillInner" style="width: 80%"></div></div></div>
+                <div class="skillEntry"><div class="key">Express.js</div><div class="skillOuter"><div class="skillInner" style="width: 80%"></div></div></div>
+                <div class="skillEntry"><div class="key">MySQL</div><div class="skillOuter"><div class="skillInner" style="width: 70%"></div></div></div>
+                <div class="skillEntry"><div class="key">MongoDB</div><div class="skillOuter"><div class="skillInner" style="width: 80%"></div></div></div>
+                <div class="skillEntry"><div class="key">Git</div><div class="skillOuter"><div class="skillInner" style="width: 90%"></div></div></div>
+                <div class="skillEntry"><div class="key">Php</div><div class="skillOuter"><div class="skillInner" style="width: 80%"></div></div></div>
+                <div class="skillEntry"><div class="key">Symfony 4</div><div class="skillOuter"><div class="skillInner" style="width: 80%"></div></div></div>
+                <div class="skillEntry"><div class="key">Typescript</div><div class="skillOuter"><div class="skillInner" style="width: 70%"></div></div></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="section">
+                <div class="sectionTitle">education</div>
+                <div class="rigthEntry">
+                    <div class="place">Budapest Tech - John von Neumann Faculty of Informatics</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">Bsc in Information Technology</div><div class="date">2003-2008</div></div>
+                        <div class="description">Specialization in Corporation Information Systems.</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">Boronkay György Secondary Technical School</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">IT technician</div><div class="date">2002-2003</div></div>
+                        <div class="description">Post-secondary course..</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">Boronkay György Secondary Technical School</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">High School diploma</div><div class="date">1998-2002</div></div>
+                        <div class="description"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="sectionTitle">experience</div>
+                <div class="rigthEntry">
+                    <div class="place">Kodebaze Pte. Ltd.</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">Senior Frontend developer</div><div class="date">2019-</div></div>
+                        <div class="description">Creating applications in react as a consultant. Occasionally working full stack.</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">Self employed</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">3D rigger, animator, modeller</div><div class="date">2018-2019</div></div>
+                        <div class="description">I produced my own 3d cartoon, made with Blender.</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">DNX Network S.à.r.l. (Luxemburg)</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">PHP Developer</div><div class="date">2015-2018</div></div>
+                        <div class="description">Working on various systems related to online payment and user management systems for different websites.</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">Docler Holding Luxembourg S.à.r.l.</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">PHP Developer</div><div class="date">2013-2015</div></div>
+                        <div class="description">Same job, same responsibilities but in a different country.</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">Docler Holding (Hungary)</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">PHP Developer</div><div class="date">2011-2013</div></div>
+                        <div class="description">Developing backend (Zend) and frontend (Qooxdoo) for the company’s risk analysis software which is used to check ~700k$ worth daily transactions. Developing the subsystem that is responsible for identifying the users for the risk analysis. Creating CMS, CRM and other applications for internal use.</div>
+                    </div>
+                </div>
+                <div class="rigthEntry">
+                    <div class="place">Compass Lighting Ltd.</div>
+                    <div class="rightEntryLeft">
+                        <div class="rightEntryHeader"><div class="title">Technical assistant</div><div class="date">2008-2011</div></div>
+                        <div class="description">System administrator roles, process customisation in the erp system</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="sectionTitle">languages</div>
+                <ul>
+                    <li>Hungarian (native)</li>
+                    <li>English (professional working proficiency)</li>
+                    <li>French (basics)</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
